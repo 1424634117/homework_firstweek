@@ -1,0 +1,175 @@
+#totalPage{
+    display: flex;
+    justify-content: space-between;
+}
+#headNav{
+    display: block;
+    background-color: rgb(69, 69, 68,0.5);
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+#headLogo{
+    width: 60px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: middle;
+}
+#headLogoTitle{
+    color: #ffffff;
+    margin: 10px;
+}
+#headNavButton{
+    display: inline-flex;
+    position: relative;
+    left: 650px;
+}
+#DeveloperDocument{
+    text-decoration-line: none;
+    color: white;
+    font: 15px "SongTi";
+    margin:20px 50px 20px 20px;
+    text-align: right;
+    z-index: 6;
+}
+#CommunicationCenter{
+    text-decoration-line: none;
+    color: white;
+    font: 15px "SongTi";
+    text-align: right;
+    margin: 20px 50px 20px 20px;
+}
+#ServerMarket{
+    text-decoration-line: none;
+    color: white;
+    font: 15px "SongTi";
+    text-align: right;
+    margin: 20px 50px 20px 20px;
+}
+#ServerMarketTable{
+    display: inline-flex;
+    flex-direction: column;
+}
+#ServerMarketList{
+    display: none;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgb(23, 182, 153,0.6);
+}
+#OpenSourceAlliance{
+    text-decoration-line: none;
+    color: white;
+    font: 15px "SongTi";
+    text-align: right;
+    margin: 20px 50px 20px 20px;
+}
+#manageCenter{
+    height: 40px;
+    margin: 10px 0 0 0;
+    vertical-align: middle;
+    text-align: right;
+}
+#headDisplayingImg{
+    width: 100%;
+    clip-path: inset(0 0 50% 0);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px;
+    font-size: 35px;
+    font-family: 'FangSong';
+    position: absolute;
+    top: 150px;
+    left:50%;
+    transform: translateX(-50%);
+}
+#ourAim{
+    display: block;
+    position: absolute;
+    top: 430px;
+    left: 140px;
+}
+#independentThinkImg{
+    width: 250px;
+    height: 200px;
+
+}
+#practiceImg{
+    width: 250px;
+    height: 200px;
+
+}
+#summaryAndReviewImg{
+    width: 250px;
+    height: 200px;
+
+}
+#shareAndCommunicationImg{
+    width: 250px;
+    height: 200px;
+  
+}
+#independentThinkBox{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 15px 0 0;
+}
+#practiceBox{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 15px 0 0;
+}
+#summaryAndReviewBox{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 15px 0 0;
+}
+#shareAndCommunicationBox{
+    display: inline-flex;
+    flex-direction: column;
+}
+#courseArragement{
+    display: block;
+    position: absolute;
+    top: 760px;
+    left: 140px;
+}
+#courseArragementTitle{
+    text-align: center;
+}
+.courseImg{
+    width: 200px;
+    clip-path: circle(30%);
+    display: inline-flex;
+}
+.textDiv{
+    display: inline-flex;
+    flex-direction: column;
+    width: 860px;
+    vertical-align:top;
+}
+#endPage{
+    display: block;
+    position: absolute;
+    top: 1450px;
+    width: 100%;
+    background-color: rgb(141, 139, 139);
+}
+#ifeTitle{
+    font-size: 30px;
+    margin: 80px;
+    display: inline-flex;
+}
+#linkTable{
+    display: inline;
+    vertical-align: middle;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    border-spacing: 80px 5px;
+}
+

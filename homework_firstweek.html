@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>谭智心</title>
+    <link rel="stylesheet" href="homework_firstweek.css">
+</head>
+<body><div id="totalPage">
+    
+    <!--导航栏与标题、标题背景的部分，此处采用绝对位置，或可使用div标签打包，使用背景图片的方式-->
+    <section id="headSection">
+        <!--导航栏部分-->
+        <nav id="headNav">
+            <img id="headLogo" src="https://tse3-mm.cn.bing.net/th/id/OIP-C.2fW2giXhZjHquXxo2LdSVwHaFS?rs=1&pid=ImgDetMain" alt="theTotalLogoImg">
+            <span id="headLogoTitle">智能小程序</span>
+            <div id="headNavButton">
+                <a id="DeveloperDocument" href="/开发者文档.txt" download="开发者文档.txt">开发者文档</a>
+                <a id="CommunicationCenter" href="mailto:123456@qq.com" title="邮箱联系123456@qq.com">交流中心</a>
+                <div id="ServerMarketTable">
+                    <!--此处将服务市场下的列表内容打包，方便通过鼠标事件控制其隐藏与否-->
+                    <!--鼠标移开隐藏列表的事件需对Table而非服务市场的锚点，否则会出现来不及选择就消失的情况-->
+                    <a id="ServerMarket">服务市场</a>
+                    <div id="ServerMarketList">
+                        <a href="http://www.baidu.com">搜索引擎-去百度</a>
+                        <a href="http://www.taobao.com">购物-去淘宝</a>
+                        <a href="http://www.bilibili.com">看视频-去B站</a>
+                    </div>
+                </div>
+                <a id="OpenSourceAlliance" href="tel:123456" title="联系我们">开源联盟</a>
+                <a id="manageCenterHtml"><button type="button" id="manageCenter">管理中心</button></a> 
+            </div> 
+        </nav>
+        <img id="headDisplayingImg" src="https://bpic.588ku.com/back_origin_min_pic/23/04/19/05b3d98833592d6e0dea0d8af7b8a2b0.jpg!/fw/750/quality/99/unsharp/true/compress/true" alt="footbridge">
+        <h1>百度前端训练营2024开营了，赶紧报名吧！</h1>
+    </section>
+    
+    <!--此处使用div打包-->
+    <div id="ourAim">
+        <h2 id="ourAimTitle">我们的宗旨</h2>
+        
+        <!--四份图片与文字打包，方便对齐-->
+        <div id="independentThinkBox">
+            <span id="independentThink">自律独立思考</span>      
+            <img id="independentThinkImg" src="https://ts1.cn.mm.bing.net/th/id/R-C.6d4ac8fef07accb7d1dd515c9bbf0b97?rik=BThDZKW7YqMHcg&riu=http%3a%2f%2fimg95.699pic.com%2fphoto%2f50089%2f1819.jpg_wh860.jpg&ehk=r5fjYhrkyJoAcV9N0w57Yj%2bKyM0fQ9Wnn0%2b5thPVhCM%3d&risl=&pid=ImgRaw&r=0" alt="the man is thinking">
+        </div>
+        
+        <div id="practiceBox">
+            <span id="practice">实践</span>
+            <img id="practiceImg" src="https://tse1-mm.cn.bing.net/th/id/OIP-C.tC_43481JchSMj0amxdHpwHaEJ?rs=1&pid=ImgDetMain" alt="some collage students are practicing for improving">
+        </div>
+        
+        <div id="summaryAndReviewBox">
+            <span id="summaryAndReview">总结回顾</span>       
+            <img id="summaryAndReviewImg" src="https://pic2.zhimg.com/v2-23bc2493be15f0f8f4e9996f3ba621db_b.jpg" alt="a cartoon man is holding a board which was written a word called summary">
+        </div>
+        
+        <div id="shareAndCommunicationBox">
+            <span id="shareAndCommunication">分享交流</span>
+            <img id="shareAndCommunicationImg" src="https://img.tukuppt.com/png_preview/00/08/55/emVuiySVpX.jpg!/fw/780" alt="four people are sitting aroud and they are sharing their points">
+        </div>
+    </div>
+
+
+    <!--仍旧使用div打包-->
+    <div id="courseArragement">
+        <h2 id="courseArragementTitle">课程安排</h2>
+        <!--每节课的展示div包含一个图片、一个小标题与一小段话-->
+        <div id="firstCourse">
+            <img id="firstCourseImg" class="courseImg" src="https://ts1.cn.mm.bing.net/th/id/R-C.8fdec80fba5abf8fa8eb076ff41a0be6?rik=p9i8WNjdweWosw&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50056%2f6658.jpg_wh1200.jpg&ehk=tuBZhfjrfdnBpgmuQn24g70RTCa5V7LhkxpaSyV1liM%3d&risl=&pid=ImgRaw&r=0" alt="a teacher is teaching knowledge before the blackboard">
+            <div id="firstCourseText" class="textDiv">
+                <h3 id="firstCourseTitle">第一节课</h3>
+                <p id="firstCourseIntroduction">这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要</p>
+            </div>
+        </div>
+        
+        <div id="secondCourse">
+            <img id="secondCourseImg" class="courseImg" src="https://ts1.cn.mm.bing.net/th/id/R-C.8fdec80fba5abf8fa8eb076ff41a0be6?rik=p9i8WNjdweWosw&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50056%2f6658.jpg_wh1200.jpg&ehk=tuBZhfjrfdnBpgmuQn24g70RTCa5V7LhkxpaSyV1liM%3d&risl=&pid=ImgRaw&r=0" alt="a teacher is teaching knowledge before the blackboard">
+            <div id="secondCourseText" class="textDiv">
+                <h3 id="secondCourseTitle">第二节课</h3>
+                <p id="secondCourseIntroduction">这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要</p>
+            </div>
+        </div>
+        
+        <div id="thirdCourse">
+            <img id="thirdCourseImg" class="courseImg" src="https://ts1.cn.mm.bing.net/th/id/R-C.8fdec80fba5abf8fa8eb076ff41a0be6?rik=p9i8WNjdweWosw&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50056%2f6658.jpg_wh1200.jpg&ehk=tuBZhfjrfdnBpgmuQn24g70RTCa5V7LhkxpaSyV1liM%3d&risl=&pid=ImgRaw&r=0" alt="a teacher is teaching knowledge before the blackboard">
+            <div id="thirdCourseText" class="textDiv">
+                <h3 id="thirdCourseTitle">第三节课</h3>
+                <p id="thirdCourseIntroduction">这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要</p>
+            </div>
+        </div>
+        
+        <div id="forthCourse">
+            <img id="forthCourseImg" class="courseImg" src="https://ts1.cn.mm.bing.net/th/id/R-C.8fdec80fba5abf8fa8eb076ff41a0be6?rik=p9i8WNjdweWosw&riu=http%3a%2f%2fseopic.699pic.com%2fphoto%2f50056%2f6658.jpg_wh1200.jpg&ehk=tuBZhfjrfdnBpgmuQn24g70RTCa5V7LhkxpaSyV1liM%3d&risl=&pid=ImgRaw&r=0" alt="a teacher is teaching knowledge before the blackboard">
+            <div id="forthCourseText" class="textDiv">
+                <h3 id="forthCourseTitle">第四节课</h3>
+                <p id="forthCourseIntroduction">这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要这里是课程内容的概要</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--页尾-->
+    <div id="endPage">
+        <h2 id="ifeTitle">I F E</h2>
+        <table id="linkTable">
+            <thead>
+                <tr>
+                    <th>Links</th>
+                    <th>Links</th>
+                    <th>Links</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>百度技术培训中心</td>
+                    <td>百度技术培训中心</td>
+                    <td>百度技术培训中心</td>
+                </tr>
+                <tr>
+                    <td>百度</td>
+                    <td>百度</td>
+                    <td>百度</td>
+                </tr>
+                <tr>
+                    <td>百度技术</td>
+                    <td>百度技术</td>
+                    <td>百度技术</td>
+                </tr>
+                <tr>
+                    <td>百度技术培训中心</td>
+                    <td>百度技术培训中心</td>
+                    <td>百度技术培训中心</td>
+                </tr>
+                <tr>
+                    <td>百度技术</td>
+                    <td>百度技术</td>
+                    <td>百度技术</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="homework_firstweek.js"></script>
+</div>
+</body>
+</html>
